@@ -14,6 +14,10 @@
 		D7D2D8A71E94D5DA009FF2F1 /* worlClock_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8A61E94D5DA009FF2F1 /* worlClock_20x20.png */; };
 		D7D2D8B11E95D169009FF2F1 /* mew.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B01E95D169009FF2F1 /* mew.png */; };
 		D7D2D8B31E95D21F009FF2F1 /* mewtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */; };
+		D7D2D8B61E96F6C1009FF2F1 /* pokeball.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B41E96F6C1009FF2F1 /* pokeball.png */; };
+		D7D2D8B71E96F6C1009FF2F1 /* masterball.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B51E96F6C1009FF2F1 /* masterball.png */; };
+		D7D2D8BA1E96F6D7009FF2F1 /* zapdos.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B81E96F6D7009FF2F1 /* zapdos.png */; };
+		D7D2D8BB1E96F6D7009FF2F1 /* articuno.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B91E96F6D7009FF2F1 /* articuno.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		D7D2D8A61E94D5DA009FF2F1 /* worlClock_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worlClock_20x20.png; sourceTree = "<group>"; };
 		D7D2D8B01E95D169009FF2F1 /* mew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mew.png; path = ../mew.png; sourceTree = "<group>"; };
 		D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mewtwo.png; path = ../mewtwo.png; sourceTree = "<group>"; };
+		D7D2D8B41E96F6C1009FF2F1 /* pokeball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pokeball.png; path = ../pokeball.png; sourceTree = "<group>"; };
+		D7D2D8B51E96F6C1009FF2F1 /* masterball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = masterball.png; path = ../masterball.png; sourceTree = "<group>"; };
+		D7D2D8B81E96F6D7009FF2F1 /* zapdos.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = zapdos.png; path = ../zapdos.png; sourceTree = "<group>"; };
+		D7D2D8B91E96F6D7009FF2F1 /* articuno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = articuno.png; path = ../articuno.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				D77E248E1E921D7A00E3F220 /* ViewController.swift */,
 				D7D2D8B01E95D169009FF2F1 /* mew.png */,
 				D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */,
+				D7D2D8B81E96F6D7009FF2F1 /* zapdos.png */,
+				D7D2D8B91E96F6D7009FF2F1 /* articuno.png */,
+				D7D2D8B41E96F6C1009FF2F1 /* pokeball.png */,
+				D7D2D8B51E96F6C1009FF2F1 /* masterball.png */,
 				D77E24901E921D7B00E3F220 /* Main.storyboard */,
 				D77E24951E921D7F00E3F220 /* LaunchScreen.storyboard */,
 				D77E24981E921D8100E3F220 /* Info.plist */,
@@ -130,9 +142,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D2D8B11E95D169009FF2F1 /* mew.png in Resources */,
+				D7D2D8B61E96F6C1009FF2F1 /* pokeball.png in Resources */,
+				D7D2D8BB1E96F6D7009FF2F1 /* articuno.png in Resources */,
 				D7D2D8B31E95D21F009FF2F1 /* mewtwo.png in Resources */,
 				D77E24971E921D7F00E3F220 /* LaunchScreen.storyboard in Resources */,
 				D7D2D8A71E94D5DA009FF2F1 /* worlClock_20x20.png in Resources */,
+				D7D2D8B71E96F6C1009FF2F1 /* masterball.png in Resources */,
+				D7D2D8BA1E96F6D7009FF2F1 /* zapdos.png in Resources */,
 				D77E24921E921D7B00E3F220 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
