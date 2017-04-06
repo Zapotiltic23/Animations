@@ -10,8 +10,10 @@
 		D77E248D1E921D7900E3F220 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E248C1E921D7900E3F220 /* AppDelegate.swift */; };
 		D77E248F1E921D7A00E3F220 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77E248E1E921D7A00E3F220 /* ViewController.swift */; };
 		D77E24921E921D7B00E3F220 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E24901E921D7B00E3F220 /* Main.storyboard */; };
-		D77E24941E921D7E00E3F220 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77E24931E921D7E00E3F220 /* Assets.xcassets */; };
 		D77E24971E921D7F00E3F220 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77E24951E921D7F00E3F220 /* LaunchScreen.storyboard */; };
+		D7D2D8A71E94D5DA009FF2F1 /* worlClock_20x20.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8A61E94D5DA009FF2F1 /* worlClock_20x20.png */; };
+		D7D2D8B11E95D169009FF2F1 /* mew.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B01E95D169009FF2F1 /* mew.png */; };
+		D7D2D8B31E95D21F009FF2F1 /* mewtwo.png in Resources */ = {isa = PBXBuildFile; fileRef = D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +21,11 @@
 		D77E248C1E921D7900E3F220 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D77E248E1E921D7A00E3F220 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D77E24911E921D7B00E3F220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D77E24931E921D7E00E3F220 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77E24961E921D7F00E3F220 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77E24981E921D8100E3F220 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D2D8A61E94D5DA009FF2F1 /* worlClock_20x20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = worlClock_20x20.png; sourceTree = "<group>"; };
+		D7D2D8B01E95D169009FF2F1 /* mew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mew.png; path = ../mew.png; sourceTree = "<group>"; };
+		D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mewtwo.png; path = ../mewtwo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				D77E248C1E921D7900E3F220 /* AppDelegate.swift */,
+				D7D2D8A61E94D5DA009FF2F1 /* worlClock_20x20.png */,
 				D77E248E1E921D7A00E3F220 /* ViewController.swift */,
+				D7D2D8B01E95D169009FF2F1 /* mew.png */,
+				D7D2D8B21E95D21F009FF2F1 /* mewtwo.png */,
 				D77E24901E921D7B00E3F220 /* Main.storyboard */,
-				D77E24931E921D7E00E3F220 /* Assets.xcassets */,
 				D77E24951E921D7F00E3F220 /* LaunchScreen.storyboard */,
 				D77E24981E921D8100E3F220 /* Info.plist */,
 			);
@@ -123,8 +129,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7D2D8B11E95D169009FF2F1 /* mew.png in Resources */,
+				D7D2D8B31E95D21F009FF2F1 /* mewtwo.png in Resources */,
 				D77E24971E921D7F00E3F220 /* LaunchScreen.storyboard in Resources */,
-				D77E24941E921D7E00E3F220 /* Assets.xcassets in Resources */,
+				D7D2D8A71E94D5DA009FF2F1 /* worlClock_20x20.png in Resources */,
 				D77E24921E921D7B00E3F220 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,6 +307,7 @@
 				D77E249D1E921D8100E3F220 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
